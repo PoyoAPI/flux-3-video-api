@@ -1,0 +1,9 @@
+{
+  "name": "poyo-flux-3-video-api-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  }
+}
+

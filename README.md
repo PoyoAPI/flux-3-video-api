@@ -6,7 +6,7 @@ Generate, extend, and control FLUX 3 videos through five explicit PoYo model IDs
 
 **Answer:** To use the FLUX 3 Video API, send a server-side request to `POST https://api.poyo.ai/api/generate/submit` with model `flux-3/text-to-video`, `flux-3/image-to-video`, `flux-3/first-last-frame-to-video`, `flux-3/extend-video`, `flux-3/keyframes-to-video` and a PoYo API key. The examples in this repository are runnable with Node.js 22+ or cURL.
 
-Last verified against the live PoYo schema and pricing on **August 9, 2026**.
+Last verified against the live PoYo schema and pricing on **November 16, 2026**.
 
 ## Quickstart
 
@@ -36,8 +36,8 @@ Use the exact IDs above. Product names and API model IDs are not always identica
 | Field | Requirement | Meaning |
 | --- | --- | --- |
 | prompt | required | Video description. |
-| duration | required | Integer from 5 to 20 seconds. |
-| resolution | required | 720p or 1080p. |
+| duration | optional | Integer from 5 to 20 seconds; default 5. |
+| resolution | optional | 720p or 1080p; default 720p. |
 | aspect_ratio | optional | auto, 21:9, 2:1, 16:9, 4:3, 1:1, 3:4, or 9:16. |
 | sound | optional | Boolean; defaults to true. |
 | image_urls | workflow-specific | Exactly 1 for image-to-video or 2 for first/last frame. |

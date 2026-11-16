@@ -11,8 +11,8 @@
 | Field | Requirement | Constraint |
 | --- | --- | --- |
 | prompt | required | Video description. |
-| duration | required | Integer from 5 to 20 seconds. |
-| resolution | required | 720p or 1080p. |
+| duration | optional | Integer from 5 to 20 seconds; default 5. |
+| resolution | optional | 720p or 1080p; default 720p. |
 | aspect_ratio | optional | auto, 21:9, 2:1, 16:9, 4:3, 1:1, 3:4, or 9:16. |
 | sound | optional | Boolean; defaults to true. |
 | image_urls | workflow-specific | Exactly 1 for image-to-video or 2 for first/last frame. |

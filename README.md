@@ -1,6 +1,6 @@
 # FLUX 3 Video API: runnable cURL and Node.js examples
 
-[![PoYo model page](https://img.shields.io/badge/Try%20on%20PoYo-flux--3--video--api-84cc16)](https://poyo.ai/models/flux-3) [![API docs](https://img.shields.io/badge/API-docs-22d3ee)](https://docs.poyo.ai/api-manual/video-series/flux-3) [![Check](https://github.com/PoyoAPI/flux-3-video-api/actions/workflows/check.yml/badge.svg)](https://github.com/PoyoAPI/flux-3-video-api/actions/workflows/check.yml)
+[![PoYo model page](https://img.shields.io/badge/Try%20on%20PoYo-flux--3--video--api-84cc16)](https://poyo.ai/models/flux-3) [![API docs](https://img.shields.io/badge/API-docs-22d3ee)](https://docs.poyo.ai/api-manual/video-series/flux-3) [![Check](https://github.com/PoyoAPI/FLUX-3-Video-API/actions/workflows/check.yml/badge.svg)](https://github.com/PoyoAPI/FLUX-3-Video-API/actions/workflows/check.yml)
 
 Generate, extend, and control FLUX 3 videos through five explicit PoYo model IDs and one async task workflow.
 
